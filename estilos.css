@@ -1,0 +1,36 @@
+/*Estilos de encabezado*/
+h1{
+    color:aquamarine;
+    background-color: #613c0c;
+}
+
+/*Estilos de encabezado en tamaño móvil*/
+@media (max-width: 550px)  {
+    h1{font-size: 14px;}
+}
+
+/*formato de encabezado, ancho  centrado de texto */
+div.titulo{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*alineado vertical de inputs, bordes, margenes  relleno*/
+input{
+    display: block;
+    margin: 5px 5px 15px 5px;
+    border: 3px solid brown;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+input[type="submit"]{
+    margin-top: 30px;
+    border-radius: 0px;
+}
+
+input#btnCalcular{
+    background-color: black;
+    color:azure;
+}
